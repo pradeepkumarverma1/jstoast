@@ -13,7 +13,7 @@ function jsToast(args) {
         container = document.createElement('div');
         container.id = 'toastContainer';
         container.style.height = '100dvh';
-        container.style.width = '100%';
+        container.style.width = 'fit-content';
         container.style.position = 'absolute';
         container.style.top = '0px';
         container.style.zIndex = '-10';
