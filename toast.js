@@ -29,7 +29,7 @@ function jsToast(args) {
     jsToast.style.height = 'auto';
     jsToast.style.width = '200px';
     jsToast.innerText = args.message || 'Default Toast Message';
-    jsToast.style.marginBottom = (40 + (70 * count)) + 'px';
+    jsToast.style.marginBottom = (40 + (70 * count + 1)) + 'px';
     jsToast.style.backgroundColor = 'rgba(0, 0, 0, 0.8)';
     jsToast.style.padding = '15px';
     jsToast.style.color = 'white';
