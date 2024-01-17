@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    top: 0;
+    font-family: Helvetica;
+}
+
+.container {
+    height: 90dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.btn-primary {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1);
+}

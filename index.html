@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JsToast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>JsToast</h1>
+        <p>Click on the below button to test the toast</p>
+
+        <div id="popup-btns">
+
+            <button id="showToast" class="btn-primary">Default Toast</button>
+
+        </div>
+
+    </div>
+
+    <script src="toast.js"></script>
+    <script>
+        const btn = document.getElementById('showToast');
+
+        function showJsToast() {
+            jsToast({
+                message: 'Data saved successfully'
+            })
+        }
+
+        btn.addEventListener('click', showJsToast);
+    </script>
+</body>
+
+</html>
