@@ -2,7 +2,14 @@
 
 This is a simple Toast Notification Written in Javascipt
 
-# How to use?
+## Live Preview
+https://pradeepkumarverma1.github.io/jstoast/
+
+## Screenshot
+![Screenshot (570)](https://github.com/pradeepkumarverma1/jstoast/assets/132253060/185be20e-1165-49d5-8932-d1dcf2701749)
+
+
+## How to use?
 
 Use the following CDN link to use this Toast Notification
 
